@@ -3,15 +3,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>dc74bfe2-864e-4af0-b2ee-539a1f3111c4</groupId>
-    <artifactId>mule-doc-buildenvironment</artifactId>
-    <version>1.0.0</version>
+    <artifactId>mule-doc-development</artifactId>
+    <version>1.0.3</version>
     <packaging>pom</packaging>
 
-    <name>Documentation - Build Environment</name>
-    <description>Mulesoft Documentation - Development -  Build environment
+    <name>Documentation - Development Process</name>
+    <description>Mulesoft Documentation - Development Process
 </description>
 
     <properties>
+        <categories key="Asset type">Documentation</categories>
+        <tags>Documentation, Standards, Development</tags>
+
         <type>custom</type>
         <exchange.mule.maven.plugin>0.0.20</exchange.mule.maven.plugin>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

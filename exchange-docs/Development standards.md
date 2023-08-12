@@ -32,8 +32,7 @@ Suppose the project has different prerequisites for compilation than those expre
 
 ## Configuration
 
-### Configuration file
-The configuration file for the project is: /src/main/resources/config.yaml. Prohibited the use of secure configuration files.
+The configuration follows the principles of [12 Factor apps](https://12factor.net/config). The configuration of the application is handled in the CICD pipeline.
 
-### No sensitive values
-The configuration file will not store any sensitive data.
+### Configuration file
+The configuration file for the project is: /src/main/resources/config.yaml. Prohibited the use of secure configuration files or configuration file per environment, example: config-prd.yaml
