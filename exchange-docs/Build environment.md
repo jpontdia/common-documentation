@@ -3,17 +3,21 @@ All Mule applications run under the Java Runtime Environment (JRE). Application 
 ## Table of contents
 1. [Software Requirements](#software-requirements)
 1. [Workstation Setup](#workstation-setup)
-1. [Running in Anypoint Studio](#running-in-anypoint-studio)
+1. [Settings.xml file](#settingsxml-file)
+1. [Anypoint Studio 7.1x](#anypoint-studio-71x)
+   1. [Configure maven](#configure-maven)
+   1. [Importing projects](#importing-projects)
+   1. [Running a projects](#running-a-project)
 
 
 ## Software Requirements
 
 The MuleSoft Assets are built on Mule 4 and Studio 7. The following is a list of the minimum software requirements for working with Accelerator assets:
 
-* Anypoint Studio 7.12.0 or higher
+* Anypoint Studio 7.15 or higher
 * Mule Runtime 4.4.0 or higher (included with Studio)
 * Latest AdoptOpenJDK 8 release (included with Studio)
-* Latest Maven 3.8.x release (for command-line deployments)
+* Latest Maven 3.8.x release (for command-line unit testing)
 * Postman 9.x or higher (for API testing)
 
 ## Workstation Setup
@@ -43,7 +47,7 @@ In this case, it is a global settings.xml file that defines the settings for all
 
 ### In a user-specific settings folder:
 
-In this case, it is a user settings.xml file that is relevant only for a specific user’s Maven installation. The default location is the .m2 directory in the user’s home directory:
+This is the prefered way of configuration because many tools including Anypoint Studio looks into this location. It is a user settings.xml file that is relevant only for a specific user’s Maven installation. The default location is the .m2 directory in the user’s home directory:
 
 /home/joe/.m2/settings.xml
 
@@ -149,15 +153,22 @@ Get from your System Administrator the next tokens:
 - Connected app for developers
 - User/password for nexus repository. This is requiered only for running test cases from command line, it is not needed if run test cases inside of the Anypoint Studio IDE
 
-## Importing projects in Anypoint Studio
+## Anypoint Studio 7.1x
+
+### Configure maven
+We will use the same maven version installed in the computer and inside the IDE. Make sure the IDE is pointing at the correct settings.xml file configured in the section above
+
+https://docs.mulesoft.com/studio/7.15/maven-preferences-reference
+
+
+### Importing projects
 
 Import a Mule Project from Exchange - https://docs.mulesoft.com/studio/7.15/import-project-exchange
 
 Import a project from a jar file with sources or from a file system (for example, a github repository cloned in local system) - https://docs.mulesoft.com/studio/7.15/import-export-packages#import-projects-to-studio
 
 
-
-## Running a project in Anypoint Studio
+### Running a project
 
 The real values for the configuration of the application will be set through the system properties in Anypoint Studio.
 

@@ -15,3 +15,9 @@ maven command to deploy asset in anypoint exchange:
 ```bash 
 mvn deploy
 ```
+
+## Further reading
+- Publish Assets Using Maven - https://docs.mulesoft.com/exchange/to-publish-assets-maven
+
+- Exchange documentation examples - https://github.com/mulesoft-labs/exchange-documentation-samples
+
