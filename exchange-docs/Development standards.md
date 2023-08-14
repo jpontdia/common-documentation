@@ -33,3 +33,7 @@ Suppose the project has different prerequisites for compilation than those expre
 ## Configuration
 
 The configuration of the application follows the principles of [12 Factor apps](https://12factor.net/config). We will have only one configuration file for the service, located in `/src/main/resources/config.yaml`. The property values will be overridden in the delivery pipeline according to the environment's needs.
+
+## Source Management
+
+**Commit messages:** The commit messages in the code repository will follow the next standard: [Git log standard](https://github.com/ahmadawais/Emoji-Log)
