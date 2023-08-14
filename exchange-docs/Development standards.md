@@ -32,7 +32,4 @@ Suppose the project has different prerequisites for compilation than those expre
 
 ## Configuration
 
-The configuration follows the principles of [12 Factor apps](https://12factor.net/config). The configuration of the application is handled in the CICD pipeline.
-
-### Configuration file
-The configuration file for the project is: /src/main/resources/config.yaml. Prohibited the use of secure configuration files or configuration file per environment, example: config-prd.yaml
+The configuration of the application follows the principles of [12 Factor apps](https://12factor.net/config). We will have only one configuration file for the service, located in `/src/main/resources/config.yaml`. The property values will be overridden in the delivery pipeline according to the environment's needs.

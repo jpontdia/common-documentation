@@ -3,8 +3,8 @@ All Mule applications run under the Java Runtime Environment (JRE). Application 
 ## Table of contents
 1. [Software Requirements](#software-requirements)
 1. [Workstation Setup](#workstation-setup)
-1. [Settings.xml file](#settingsxml-file)
-1. [Anypoint Studio 7.1x](#anypoint-studio-71x)
+1. [Settings Maven file](#settings-maven-file)
+1. [Anypoint Studio 7.1x](#anypoint-studio-7)
    1. [Configure maven](#configure-maven)
    1. [Importing projects](#importing-projects)
    1. [Running a projects](#running-a-project)
@@ -32,7 +32,7 @@ Perform the following steps to prepare your workstation for building, deploying,
 - Download and install the latest 64-bit version of the Anypoint Studio 7 release from [https://www.mulesoft.com/lp/dl/studio](https://www.mulesoft.com/lp/dl/studio). Do not install the product under a folder containing spaces in the name.
 - Launch Studio and create a new workspace for the accelerator assets. Do not locate the workspace under a folder containing spaces in the name.
 
-## settings.xml File
+## Settings Maven file
 
 Contains global settings for your Maven installation. Unlike a project’s pom.xml, it defines system-wide settings and is not distributed with a project, since it can contain confidential information such as authentication credentials.
 
@@ -153,7 +153,7 @@ Get from your System Administrator the next tokens:
 - Connected app for developers
 - User/password for nexus repository. This is requiered only for running test cases from command line, it is not needed if run test cases inside of the Anypoint Studio IDE
 
-## Anypoint Studio 7.1x
+## Anypoint Studio 7
 
 ### Configure maven
 We will use the same maven version installed in the computer and inside the IDE. Make sure the IDE is pointing at the correct settings.xml file configured in the section above

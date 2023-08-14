@@ -2,6 +2,7 @@
     "pageOrder": [
         "home",
         "What is a mule application",
+        "API-led architecture",
         "General guidelines",
         "Build environment",
         "Development standards",

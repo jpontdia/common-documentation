@@ -4,7 +4,7 @@
 
     <groupId>dc74bfe2-864e-4af0-b2ee-539a1f3111c4</groupId>
     <artifactId>mule-doc-development</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.5</version>
     <packaging>pom</packaging>
 
     <name>Documentation - Development Process</name>
