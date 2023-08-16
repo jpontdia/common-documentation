@@ -134,7 +134,7 @@ Copy the next settings file into your local system
       <server>
          <id>anypoint-exchange-v3</id>
          <username>~~~Client~~~</username>
-         <password>AAAAAAAAAAAAA~?~BBBBBBBBBBBBB</password>
+         <password>clientID~?~clientSecret</password>
       </server>
       <server>
          <id>mulesoft-enterprise-repository</id>
@@ -152,6 +152,11 @@ Get from your System Administrator the next tokens:
 
 - Connected app for developers
 - User/password for nexus repository. This is requiered only for running test cases from command line, it is not needed if run test cases inside of the Anypoint Studio IDE
+
+Configure settings.xml file with the value of the Connected App by replacing the varaibles `clientID` and `clientSecret`. More information on this topic in the next documents:
+
+- [Connected Application Authentication](https://docs.mulesoft.com/exchange/connected-app-authentication)
+- [Publish and Consume Federated Assets](https://docs.mulesoft.com/exchange/to-publish-assets-maven#publish-an-asset-with-mutable-data)
 
 ## Anypoint Studio 7
 

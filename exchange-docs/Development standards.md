@@ -1,5 +1,7 @@
 ## Table of contents
 1. [Documentation](#documentation)
+1. [Naming](#naming)
+1. [POM](#pom)
 1. [Configuration](#configuration)
 
 ## Documentation
@@ -29,6 +31,20 @@ The README.md file will have at least the following sections:
 1. Configuration: Explanation of all the parameters used by the application.
 
 Suppose the project has different prerequisites for compilation than those expressed in the build environment guide, or the packaging procedure is not standard. In that case, a new section must be added explaining the differences.
+
+## Naming
+
+1. If the mule application is the implementation of an API specification, then the name of the project is the name of the API
+
+## POM
+
+1. The name of the asset is the name of the code repository.
+1. The name of the artifact is the same as the asset.
+1. GroupId is the Business Group ID the asset belongs to.
+1. Developer is resible for:
+    1. Update the pom version following the [Semantic Versioning](https://semver.org/)
+    1. Provide the correct values for tags, categories and fields, acordingly the current configuration of Anypoint Exchange, details on https://docs.mulesoft.com/exchange/to-publish-assets-maven#publish-an-asset-with-mutable-data
+
 
 ## Configuration
 

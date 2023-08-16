@@ -29,13 +29,16 @@ This section offers a comprehensive resource for both experienced developers and
     - Session 6: Debug the Mule Application in Anypoint Studio | MuleSoft from Start: A Beginner's Guide - https://www.youtube.com/watch?v=75IJ1WFa9iA
     - Session 7: Deploy the Mule App to CloudHub Runtime Manager | MuleSoft from Start: A Beginner's Guide - https://www.youtube.com/watch?v=SUwnqoq8ZbI
 
-F
-
 ## Dataweave
 
 - Overview of DataWeave - https://javastreets.com/blog/dataweave/dataweave-getting-started.html
 - DataWeave Online Playground - https://developer.mulesoft.com/learn/dataweave/playground
 - DataWeave Tutorial - https://developer.mulesoft.com/learn/dataweave/tutorial
+
+## Munit
+
+- Unit Testing in Mule with MUnit - https://anypoint.mulesoft.com/exchange/68ef9520-24e9-4cf2-b2f5-620025690913/unit-testing-in-mule-with-munit/minor/1.0/
+
 
 ## Self-paced (free) training courses
 
