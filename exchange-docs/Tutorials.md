@@ -39,6 +39,9 @@ This section offers a comprehensive resource for both experienced developers and
 
 - Unit Testing in Mule with MUnit - https://anypoint.mulesoft.com/exchange/68ef9520-24e9-4cf2-b2f5-620025690913/unit-testing-in-mule-with-munit/minor/1.0/
 
+## Blogs
+
+- Mulesoft Integration Resources - https://www.mulesoft.com/integration-resources
 
 ## Self-paced (free) training courses
 
