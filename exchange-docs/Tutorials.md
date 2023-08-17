@@ -32,8 +32,18 @@ This section offers a comprehensive resource for both experienced developers and
 ## Dataweave
 
 - Overview of DataWeave - https://javastreets.com/blog/dataweave/dataweave-getting-started.html
+- DataWeave Quickstart - https://docs.mulesoft.com/dataweave/2.4/dataweave-quickstart
+- DataWeave Language Guide -
+https://docs.mulesoft.com/dataweave/2.4/dataweave-language-guide
+
 - DataWeave Online Playground - https://developer.mulesoft.com/learn/dataweave/playground
 - DataWeave Tutorial - https://developer.mulesoft.com/learn/dataweave/tutorial
+
+## Functional Monitoring (BAT)
+
+- API Functional Monitoring with the Blackbox Automated Testing (BAT) CLI - https://docs.mulesoft.com/api-functional-monitoring/bat-top
+- BAT CLI Reference - 
+
 
 ## Munit
 
