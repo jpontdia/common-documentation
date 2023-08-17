@@ -7,9 +7,8 @@
     <version>1.0.6</version>
     <packaging>pom</packaging>
 
-    <name>Documentation - Development Process</name>
-    <description>Mulesoft Documentation - Development Process
-</description>
+    <name>mule-documentation</name>
+    <description>Mulesoft Documentation - Development Process</description>
 
     <properties>
         <categories key="Asset type">Documentation</categories>
