@@ -3,18 +3,19 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>078efef1-d139-48ed-92f5-f8d4a0592374</groupId>
-    <artifactId>mule-doc-development</artifactId>
-    <version>1.0.6</version>
+    <artifactId>common-documentation</artifactId>
+    <version>1.0.1</version>
     <packaging>pom</packaging>
 
-    <name>mule-documentation</name>
+    <name>common-documentation</name>
     <description>Mulesoft Documentation - Development Process</description>
 
     <properties>
-        <categories key="Asset type">Documentation</categories>
-        <tags>Documentation, Standards, Development</tags>
-
+    	<!-- Exchange documentation -->
+        <categories key="Asset type">Common</categories>
+        <tags>Documentation, Standards, Development, Common</tags>
         <type>custom</type>
+        
         <exchange.mule.maven.plugin>0.0.20</exchange.mule.maven.plugin>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>

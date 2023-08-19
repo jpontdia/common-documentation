@@ -1,4 +1,8 @@
 # Documentation - Development Process
+![Powered by](https://img.shields.io/badge/Powered%20by-Mulesoft-blue.svg)
+  ![Build and deploy](https://github.com/jpontdia/mule-common-documentation/actions/workflows/build.yml/badge.svg)
+<br>
+
 Mulesoft Documentation - Development Process
 
 ## Configure group-id of the project
