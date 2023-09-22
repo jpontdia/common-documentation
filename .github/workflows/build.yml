@@ -1,19 +1,20 @@
-name: Build and deploy
+name: Build
  
 on:
   push:
     branches: [ "main" ]
   pull_request: 
 
-jobs:
+jobs: 
   Mulesoft:
-    permissions:
-      contents: read
-      issues: read
-      checks: write
-      pull-requests: write        
-    uses: jpontdia/mule-common-devops/.github/workflows/mulesoft.yml@main
+    uses: jpontdia/common-devops/.github/workflows/mule-build.yml@main
     with:
       keyvault-key: jpworks-keyvault
     secrets:
       azure-credentials: ${{ secrets.AZURE_CREDENTIALS }}
+    
+    # Needed by the Unit Test Action
+    permissions:
+      contents: write
+      issues: write
+      checks: write
